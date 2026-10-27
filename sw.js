@@ -1,6 +1,6 @@
 // 처음 한 번 받아두면 인터넷 없이 동작하도록 전부 캐시한다.
 // 파일을 바꿔 올릴 때는 VERSION 을 올린다.
-const VERSION = "v1";
+const VERSION = "v2";
 const FILES = [
   "./",
   "index.html",

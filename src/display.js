@@ -1,7 +1,7 @@
 import { CONFIG } from "./config.js";
 import { designCells, drawStyledQR } from "./qr.js";
 
-const BLOCK = 3; // 이퀄라이저 박스 하나 = QR 3×3칸
+const BLOCK = CONFIG.eqBlock; // 이퀄라이저 박스 하나 = QR BLOCK×BLOCK칸
 const GAP = 0.18; // 박스 사이 여백 (QR 칸 크기 대비)
 const SPLIT = 0.22; // 입자 진행 중 "쪼개지는" 구간 비율
 const MORPH_MS = 900; // 조각 하나가 쪼개져 날아가는 시간

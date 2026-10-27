@@ -26,7 +26,8 @@ export const CONFIG = {
 
   // 이퀄라이저
   qrHeightRatio: 0.86, // 화면 높이 대비 QR 크기
-  eqMaxBoxes: 5, // 막대 최대 높이 (박스 개수)
+  eqBlock: 1, // 박스 하나의 크기 (QR 칸 단위, QR 칸 수 21의 약수: 1·3·7)
+  eqMaxBoxes: 15, // 막대 최대 높이 (박스 개수)
   eqIdleAmp: 0.22, // 아무도 없을 때 출렁임 크기 (0~1)
   eqEngagedAmp: 0.4, // 사람이 다가왔을 때 기본 크기
   eqMotionGain: 3.0, // 움직임이 출렁임에 주는 영향
